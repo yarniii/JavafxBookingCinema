@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="700.0" minHeight="400.0" minWidth="700.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   
+   <children>
+      <AnchorPane layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="281.0" prefWidth="700.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="At The Cinema Today:">
+               <font>
+                  <Font name="Freestyle Script" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="ButtonFilm1" layoutX="63.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#openzal" prefHeight="172.0" prefWidth="98.0" styleClass="logButton" stylesheets="@images.css" />
+            <Button fx:id="ButtonFilm2" layoutX="218.0" layoutY="65.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="107.0" text="Фильм 2" />
+            <Button fx:id="ButtonFilm3" layoutX="369.0" layoutY="65.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="107.0" text="Фильм 3" />
+            <Button fx:id="ButtonFilm4" layoutX="516.0" layoutY="65.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="107.0" text="Фильм 4" />
+         </children></AnchorPane>
+      <Label layoutX="266.0" layoutY="-13.0" prefHeight="104.0" prefWidth="181.0" text="OnlyViews" textFill="WHITE">
+         <font>
+            <Font name="Freestyle Script" size="64.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SearchField" layoutX="518.0" layoutY="31.0" prefHeight="25.0" prefWidth="171.0" promptText="Search" style="-fx-background-color: white;" text="Search">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font></TextField>
+      <Button fx:id="ButtonRegisterionMain" layoutX="14.0" layoutY="68.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: white;" text="Registration" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonSignUpMain" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="74.0" style="-fx-background-color: white;" text="SIgnUp" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonTheatres" layoutX="354.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Theatres" textFill="WHITE">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonMovies" layoutX="266.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Movies" textFill="WHITE">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

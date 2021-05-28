@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistrationScreen">
+   <children>
+      <AnchorPane layoutY="119.0" prefHeight="281.0" prefWidth="700.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="EmailFieldRegistrationScreen" layoutX="170.0" layoutY="24.0" prefHeight="34.0" prefWidth="149.0" promptText="Email">
+               <font>
+                  <Font name="Freestyle Script" size="22.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="PasswordFieldRegistationScreen" layoutX="170.0" layoutY="95.0" prefHeight="34.0" prefWidth="149.0" promptText="Password">
+               <font>
+                  <Font name="Freestyle Script" size="22.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="RegistationButtonRegistrationScreen" layoutX="276.0" layoutY="162.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: Black;" text="Registration" textFill="WHITE">
+               <font>
+                  <Font name="Freestyle Script" size="22.0" />
+               </font>
+            </Button>
+            <TextField fx:id="UsernameFieldRegistrationScreen" layoutX="351.0" layoutY="24.0" prefHeight="34.0" prefWidth="149.0" promptText="Usename">
+               <font>
+                  <Font name="Freestyle Script" size="22.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="ConfirmPasswordFieldRegistationScreen" layoutX="351.0" layoutY="95.0" prefHeight="34.0" prefWidth="149.0" promptText="Comfirm a password">
+               <font>
+                  <Font name="Freestyle Script" size="22.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="invalid" alignment="CENTER" layoutX="173.0" layoutY="232.0" prefHeight="17.0" prefWidth="331.0" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="260.0" prefHeight="104.0" prefWidth="181.0" text="OnlyViews" textFill="WHITE">
+         <font>
+            <Font name="Freestyle Script" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButtonRegistration" layoutX="14.0" layoutY="21.0" maxHeight="25.0" maxWidth="27.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="27.0" styleClass="first-button" stylesheets="@myCss.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+{
+-fx-base: #383838
+}
+.logButton {
+
+    -fx-background-image: url(film1.jpg);
+    -fx-background-size: 107px 184px;
+
+
+
+}
+
+.profileButton{
+
+-fx-background-image: url(1492031866172254022.png);
+-fx-background-color: transparent;
+-fx-background-size: cover;
+}

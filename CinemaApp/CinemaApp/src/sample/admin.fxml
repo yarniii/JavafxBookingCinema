@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="400.0" maxWidth="700.0" minHeight="400.0" minWidth="700.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: d45555;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.admin">
+   
+   <children>
+      <AnchorPane layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="281.0" prefWidth="700.0" style="-fx-background-color: fffafa;">
+         <children>
+            <TableView fx:id="tickets" layoutX="-1.0" layoutY="1.0" prefHeight="281.0" prefWidth="463.0">
+              <columns>
+                <TableColumn fx:id="username" prefWidth="154.0" text="username" />
+                <TableColumn fx:id="film" prefWidth="148.0" text="film" />
+                  <TableColumn fx:id="seat" prefWidth="160.0" text="seat" />
+              </columns>
+            </TableView>
+            <Button fx:id="cancel" layoutX="525.0" layoutY="197.0" mnemonicParsing="false" onMouseClicked="#cancel" text="cancel reservationton" wrapText="true" />
+         </children></AnchorPane>
+      <Label layoutX="266.0" layoutY="-13.0" prefHeight="104.0" prefWidth="233.0" text="OnlyViews" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonTheatres" disable="true" layoutX="354.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Theatres" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonMovies" disable="true" layoutX="266.0" layoutY="76.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Movies" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.zal">
+   <children>
+      <CubicCurve controlX1="-50.0" controlX2="57.0" controlY1="-100.0" controlY2="-100.0" endX="183.0" endY="-22.0" fill="WHITE" layoutX="288.0" layoutY="103.0" startX="-161.0" startY="-22.0" stroke="BLACK" />
+      <VBox layoutX="194.0" layoutY="140.0" spacing="15.0">
+         <children>
+            <HBox spacing="15.0">
+               <children>
+                  <Button fx:id="FirstRow1Seat" mnemonicParsing="false" onMouseClicked="#FirstRow1Seat" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="1" textFill="WHITE" />
+                  <Button fx:id="FirstRow2Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="2" textFill="WHITE" />
+                  <Button fx:id="FirstRow3Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="3" textFill="WHITE" />
+                  <Button fx:id="FirstRow4Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="4" textFill="WHITE" />
+                  <Button fx:id="FirstRow5Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="5" textFill="WHITE" />
+                  <Button fx:id="FirstRow6Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="6" textFill="WHITE" />
+               </children>
+            </HBox>
+            <HBox spacing="15.0">
+               <children>
+                  <Button fx:id="SecondRow1Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="1" textFill="WHITE" />
+                  <Button fx:id="SecondRow2Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="2" textFill="WHITE" />
+                  <Button fx:id="SecondRow3Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="3" textFill="WHITE" />
+                  <Button fx:id="SecondRow4Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="4" textFill="WHITE" />
+                  <Button fx:id="SecondRow5Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="5" textFill="WHITE" />
+                  <Button fx:id="SecondRow6Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="6" textFill="WHITE" />
+               </children>
+            </HBox>
+            <HBox spacing="15.0">
+               <children>
+                  <Button fx:id="ThirdfRow1Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="1" textFill="WHITE" />
+                  <Button fx:id="ThirdfRow2Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="2" textFill="WHITE" />
+                  <Button fx:id="ThirdfRow3Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="3" textFill="WHITE" />
+                  <Button fx:id="ThirdfRow4Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="4" textFill="WHITE" />
+                  <Button fx:id="ThirdfRow5Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="5" textFill="WHITE" />
+                  <Button fx:id="ThirdfRow6Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="6" textFill="WHITE" />
+               </children>
+            </HBox>
+            <HBox spacing="15.0">
+               <children>
+                  <Button fx:id="FourthRow1Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="1" textFill="WHITE" />
+                  <Button fx:id="FourthRow2Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="2" textFill="WHITE" />
+                  <Button fx:id="FourthRow3Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="3" textFill="WHITE" />
+                  <Button fx:id="FourthRow4Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="4" textFill="WHITE" />
+                  <Button fx:id="FourthRow5Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="5" textFill="WHITE" />
+                  <Button fx:id="FourthRow6Seat" mnemonicParsing="false" prefHeight="25.0" prefWidth="13.0" style="-fx-background-color: black;" text="6" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="153.0" layoutY="141.0" spacing="25.0">
+         <children>
+            <Label text="1 row" />
+            <Label text="2 row" />
+            <Label text="3 row" />
+            <Label text="4 row" />
+         </children>
+      </VBox>
+      <Label fx:id="PriceLabel" layoutX="349.0" layoutY="338.0" text="Total Price:" wrapText="true" />
+      <Label fx:id="SelectedSeatsLabel" layoutX="126.0" layoutY="338.0" text="Selected Seats:" />
+      <Button fx:id="BuyButton" layoutX="534.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: black;" text="Buy" textFill="WHITE" />
+   </children>
+</AnchorPane>
